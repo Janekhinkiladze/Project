@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat';font-size: 22px;
+    background-color: #FCFCFC;
+}
+
+    :root {
+      --black: #0a0a0a;
+      --white: #ffffff;
+      --off-white: #f7f7f5;
+      --mid-gray: #888;
+      --light-gray: #d8d8d8;
+      --text-muted: #555;
+    }
+
+nav {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 48px;
+}
+
+nav .logo {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--black);
+    text-decoration: none;
+}
+
+nav .links {
+    display: flex;
+    gap: 36px;
+    list-style: none;
+}
+
+nav  a {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--black);
+    text-decoration: none;
+    position: relative;
+}
+
+nav  a::after {
+      position: absolute;
+      bottom: -2px; 
+      left: 0;
+      width: 0; 
+      height: 1px;
+      background: var(--black);
+      transition: width 0.3s ease;
+}
+
+
+/* Hero */
+img {
+    position: relative;
+}
+
+.hero {
+    position: absolute;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
