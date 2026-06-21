@@ -7,7 +7,7 @@
 body {
   font-family: "Montserrat";
   font-size: 22px;
-  background-color: #FCFCFC;
+  background-color: #fcfcfc;
 }
 
 nav {
@@ -412,7 +412,6 @@ nav .links a::hover {
   right: 20px;
 }
 
-
 /* testimonials */
 .testimonials {
   padding: 60px 48px;
@@ -430,8 +429,8 @@ nav .links a::hover {
 /* Row of 3 cards */
 .testimonials {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr; 
-  grid-template-rows: auto auto;     
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto;
   gap: 20px;
 }
 
@@ -475,7 +474,6 @@ nav .links a::hover {
     grid-column: 1 / 2;
   }
 }
-
 
 /* FOOTER */
 footer {
@@ -549,7 +547,7 @@ footer {
   padding: 0;
   margin: 0;
   display: grid;
-  grid-template-columns: 1fr 1fr; 
+  grid-template-columns: 1fr 1fr;
   gap: 8px 40px;
 }
 
