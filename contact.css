@@ -182,7 +182,7 @@
   transform: translateY(0);
 }
 
-@media (max-width: 900px) {
+@media (max-width: 768px) {
   .contacts {
     grid-template-columns: 1fr;
     gap: 48px;
@@ -203,7 +203,7 @@
   }
 }
 
-@media (max-width: 560px) {
+@media (max-width: 500px) {
   .contacts {
     padding: 48px 20px 60px;
     gap: 40px;
